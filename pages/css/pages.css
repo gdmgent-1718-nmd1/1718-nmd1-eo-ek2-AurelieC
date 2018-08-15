@@ -14,5 +14,10 @@ body {
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
-
+.Positief {
+    color: green;
+}
+.Negatief {
+    color: red;
+}
 /* Voeg jouw css hieraan toe */
