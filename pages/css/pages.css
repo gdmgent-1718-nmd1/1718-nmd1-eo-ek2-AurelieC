@@ -14,10 +14,15 @@ body {
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
-.Positief {
+
+
+li .Positief ::before  {
+    content: "•"; 
     color: green;
 }
-.Negatief {
+
+
+li .Negatief {
     color: red;
 }
 /* Voeg jouw css hieraan toe */
