@@ -9,42 +9,114 @@
     <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
-    <h1>Digital Styleguide</h1>
-
-    <div class="topnav">
-            <img src=""><div class="navbar">
-             <a href="#home">Limited Editions</a>
-             <div class="dropdown">
-               <button class="dropbtn">Categorieën 
-                 <i class="fa fa-caret-down"></i>
-               </button>
-               <div class="dropdown-content">
-                 <a href="#">Godsdienst</a>
-                 <a href="#">Dieren / Natuur</a>
-                 <a href="#">Kunst</a>
-                 <a href="#">Sport</a>
-                 <a href="#">Divers</a>
+    <img class="Logo" src="./images/Filateljee.png" alt="Logo">
+        <div class="topnav">
+                <img src=""><div class="navbar">
+                 <a href="#home">Limited Editions</a>
+                 <div class="dropdown">
+                   <button class="dropbtn">Categorieën 
+                     <i class="fa fa-caret-down"></i>
+                   </button>
+                   <div class="dropdown-content">
+                     <a href="#">Godsdienst</a>
+                     <a href="#">Dieren / Natuur</a>
+                     <a href="#">Kunst</a>
+                     <a href="#">Sport</a>
+                     <a href="#">Divers</a>
+                   </div>
+                 </div>
+               <a href="#news">Contact</a>
+               <a href="#news">Winkelmandje</a>
                </div>
-             </div>
-           <a href="#news">Contact</a>
-           <a href="#news">Winkelmandje</a>
-           </div>
-           </div>
-           
-           <div class="content"><br>
-            <div class="col-25"
-     <table style="table1">
-              <td>
-                  <tr><h1>Dit is de titel</h1>
-                  <h2>Roboto Slab Bold</h2>
-                  <h3>Hier komt een tussentitel</h3>
-                  <h2>Roboto Medium</h2>
-                  <h4>De hoofdtekst zal bij deze gaan over een zeer interessante postzegel! Helaas is dit maar een simulatie.. Gelukkig zijn er genoeg andere websites waar je jezelf kan onderdompelen in de wondere wereld van de postzegels!</h4>
-                  <h2>Helvetica</h2>
-            
-              </tr>
-                </td>
-            </table></div>
-
+               </div>
+               <div class="content"><br>
+               <div class="col-25"
+               <table style="table1">
+                 <td>
+                     <tr><h1>Dit is de titel</h1>
+                     <h2>Roboto Slab Bold</h2>
+                    <div class="box col-50"><h3>Hier komt een tussentitel</h3>
+                     <h2>Roboto Medium</h2>
+                     <h4>De hoofdtekst zal bij deze gaan over een zeer interessante postzegel! Helaas is dit maar een simulatie.. Gelukkig zijn er genoeg andere websites waar je jezelf kan onderdompelen in de wondere wereld van de postzegels!</h4>
+                     <h2>Helvetica</h2>
+                     </div>
+                     <h5>Knoppen</h5>
+                    <div class="buttons">
+                     <button class="button1" type="button">Standaard knop</button>
+                     <button class="button2" type="button">Aanmelden</button>
+                     <button class="button3" type="button">Bestel</button>
+                     <button class="button4" type="button"><</button>
+                     <button class="button4" type="button">></button>
+               
+               
+               
+               
+                   </div>
+                 </tr>
+                   </td>
+               </table>
+               </div>
+               <div class="lettertypes">
+                 <p>Roboto Slab Bold</p>
+                 <p>Roboto Slab Regular</p>
+                 <p>Roboto</p>
+                 <p>Helvetica</p>
+               
+               </div>
+               <h6>Formulier</h6>
+               
+                   <div class="container">
+                 <form action="/action_page.php">
+                   <div class="row">
+                     <div class="col-25">
+                       <label for="fname">Voornaam</label>
+                     </div>
+                     <div class="col-75">
+                       <input type="text" id="fname" name="Voornaam" placeholder="Uw naam..">
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-25">
+                       <label for="lname">Achternaam</label>
+                     </div>
+                     <div class="col-75">
+                       <input type="text" id="lname" name="lastname" placeholder="Uw achternaam..">
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-25">
+                       <label for="country">Land</label>
+                     </div>
+                     <div class="col-75">
+                       <select id="country" name="country">
+                         <option value="belgië">België</option>
+                         <option value="nederland">Nederland</option>
+                         <option value="frankrijk">Frankrijk</option>
+                       </select>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-25">
+                       <label for="subject">Bericht*</label>
+                     </div>
+                     <div class="col-75">
+                       <textarea id="subject" name="subject" placeholder="Schrijf bericht.." style="height:200px"></textarea>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <input type="submit" value="Verstuur">
+                   </div>
+                 </form>
+               </div>
+               
+               <div class="footer">
+                 <button class="color1 col-20">HSB 56 23 86 RGB 219 216 168 #DBD8A8</button>
+                 <button class="color2 col-20">HSB 53 13 91 RGB 234 231 202 #EAE7CA</button>
+                 <button class="color3 col-20">HSB 53 0 71 RGB 183 183 183 #B7B7B7</button>
+                 <button class="color4 col-20">HSB 53 0 27 RGB 71 71 71 #474747</button>
+                 <button class="color5 col-20">HSB 256 63 56 RGB 75 53 142 #4B358E</button>
+               
+                 
+               </div>
 </body>
 </html>
