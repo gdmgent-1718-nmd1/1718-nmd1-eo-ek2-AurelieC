@@ -231,7 +231,7 @@ input[type=submit]:hover {
     padding-left: 650px;
     padding-right: 60px;
     padding-bottom: 150px;
-    padding-top: 0;
+    padding-top: 100px;
 }
 
 .lettertypes {
@@ -284,6 +284,7 @@ input[type=submit]:hover {
     float: left;
     padding-left: 1em;
     padding-top: 10px;
+    margin: 3px;
 }
 
 .button1 {
@@ -357,33 +358,33 @@ input[type=submit]:hover {
 .color1 {
     background-color: #DBD8A8;
     border-radius: 12px;
-    padding: 30px 90px;
+    padding: 30px 60px;
 
 }
 .color2 {
     background-color: #EAE7CA;
     border-radius: 12px;
-    padding: 30px 90px;
+    padding: 30px 60px;
 
 }
 .color3 {
     background-color: #B7B7B7;
     border-radius: 12px;
-    padding: 30px 90px;
+    padding: 30px 60px;
 
 }
 .color4 {
     color: #FFF;
     background-color: #474747;
     border-radius: 12px;
-    padding: 30px 95px;
+    padding: 30px 65px;
 
 }
 .color5 {
     color: #FFF;
     background-color: #4B358E;
     border-radius: 12px;
-    padding: 30px 90px;
+    padding: 30px 60px;
 
 }
 
@@ -395,6 +396,35 @@ input[type=submit]:hover {
     padding-right: 30px;
 }
 
+.icons {
+    width: 40px;
+  
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 30px;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.product {
+    width: 60px;
+    float: left;
+    padding-right: 20px;
+}
 
 /* Style the footer */
 .footer {
