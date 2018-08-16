@@ -91,8 +91,8 @@ h6 {
 .box {
     background-color: #FFF;
    padding-right: 30px;
-   padding-bottom: 60px;
-   padding-left: 120px;
+   padding-bottom: 10px;
+   padding-left: 10px;
    margin: 1em;
 }
 
@@ -231,7 +231,7 @@ input[type=submit]:hover {
     padding-left: 650px;
     padding-right: 60px;
     padding-bottom: 150px;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .lettertypes {
@@ -421,9 +421,11 @@ input[type=submit]:hover {
 }
 
 .product {
-    width: 60px;
+    width: 175px;
     float: left;
     padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
 /* Style the footer */
