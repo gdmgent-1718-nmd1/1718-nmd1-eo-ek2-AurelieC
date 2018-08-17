@@ -103,7 +103,23 @@ h7 {
     padding-top: 250px;
     padding-left: 1em;
 }
+h8 { 
+    display: block;
+    font-size: 16pt;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-right: 0;
+    font-weight: bold;
+}
+h9 { 
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    font-size: 21pt;
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-right: 0;
 
+}
 .Slab {
 font-family: Roboto Slab, serif;
 font-weight: bold;
