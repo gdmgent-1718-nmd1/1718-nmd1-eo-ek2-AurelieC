@@ -404,9 +404,9 @@ input[type=submit]:hover {
 }
 
 .icons {
-    width: 40px;
-    padding-right: 0px;
-  
+    width: 130px;
+float: left;
+padding-left: 20px;  
 
 }
 
