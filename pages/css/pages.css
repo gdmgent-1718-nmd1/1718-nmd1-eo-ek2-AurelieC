@@ -218,6 +218,7 @@ input[type=submit] {
     border-radius: 10px;
     cursor: pointer;
     float: right;
+    display: inline-block;
 }
 
 input[type=submit]:hover {
@@ -364,7 +365,7 @@ input[type=submit]:hover {
 .color2 {
     background-color: #EAE7CA;
     border-radius: 12px;
-    padding: 30px 60px;
+    padding: 30px 55px;
 
 }
 .color3 {
