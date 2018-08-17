@@ -404,12 +404,17 @@ input[type=submit]:hover {
 }
 
 .icons {
-    width: 130px;
+    width: 145px;
 float: left;
 padding-left: 20px;  
 
 }
 
+.test {
+    padding-right: 620px;
+    float: right;
+    
+}
 
 * {
     box-sizing: border-box;
@@ -435,6 +440,8 @@ padding-left: 20px;
     padding-top: 30px;
     padding-left: 10px;
 }
+
+
 
 /* Style the footer */
 .footer {
